@@ -1,0 +1,23 @@
+@use './variables' as v;
+
+.defaultM{
+    display: flex;
+    flex-direction: column;
+    //border: 2px solid blue;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    padding: 5vw;
+    
+    h1{
+        color: v.$color-interfaz;
+        font-size: 4vw;
+        font-weight: lighter;
+    }
+    h2{
+        color: v.$color-interfaz;
+        font-size: 6vw;
+        font-weight: lighter;
+    }
+    
+}
