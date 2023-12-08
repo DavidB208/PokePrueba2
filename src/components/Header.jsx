@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="header">
         <a href="/" className="header-container">
-            <img className='header-logo' src="src\assets\pokedex.png" alt="Logo Pokedex"></img>
+            <img className='header-logo' src="/src/assets/pokedex.png" alt="Logo Pokedex"></img>
         </a>
         <div className='light'>
           <div className='light-1'></div>
