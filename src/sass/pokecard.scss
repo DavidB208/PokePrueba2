@@ -1,0 +1,130 @@
+@use 'variables' as v;
+
+.card-pokemon{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: v.$color-carta;
+    border-radius: 1rem;
+    height: 100%;
+    transition: 100ms;
+
+    &:hover{
+        background-color: v.$color-img;
+        padding: 0.5vw;
+    }
+}
+
+.card-types{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    //border: 2px solid;
+    
+    h3{
+        font-size: 1vw;
+        padding: 5px 20px;
+        border-radius: 5px;
+        color: #fff;
+    }
+}
+
+.poke-img{
+    background-color: v.$color-img;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    //border: 2px solid;
+    height: 70%;
+
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.poke-info{
+    height: 30%;
+    padding: 15px;
+    //border: 2px solid red;
+
+    &-name{
+        text-transform: capitalize;
+        color: v.$color-interfaz;
+        font-size: 1.5vw;
+        //border: 2px solid;
+    }
+}
+
+/* Types of Pokemon */
+.water {
+	background-color: v.$color-water;
+}
+
+.grass {
+	background-color: v.$color-grass;
+}
+
+.poison {
+	background-color: v.$color-poison;
+}
+
+.fire {
+	background-color: v.$color-fire;
+}
+
+.bug {
+	background-color: v.$color-bug;
+}
+
+.dragon {
+	background: v.$color-dragon;
+}
+
+.flying {
+	background-color: v.$color-flying;
+}
+
+.ground {
+	background-color: v.$color-ground;
+}
+
+.steel {
+	background-color: v.$color-steel;
+}
+
+.psychic {
+	background-color: v.$color-psychic;
+}
+
+.ice {
+	background-color: v.$color-ice;
+}
+
+.ghost {
+	background-color: v.$color-ghost;
+}
+
+.normal {
+	background-color: v.$color-normal;
+}
+
+.rock {
+	background-color: v.$color-rock;
+}
+
+.electric {
+	background-color: v.$color-electric;
+}
+
+.fighting {
+	background-color: v.$color-fighting;
+}
+
+.fairy {
+	background-color: v.$color-fairy;
+}
+
+.dark {
+	background-color: v.$color-dark;
+}

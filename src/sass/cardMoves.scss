@@ -1,0 +1,55 @@
+@use 'variables' as v;
+
+@media screen and (min-width:1126px){
+    .card-moves{
+        cursor: pointer;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 1vw;
+        max-width: 100%;
+        padding: 1vw;
+        border-radius: 1vw;
+        background-color: v.$color-carta;
+        //box-shadow: 3px 3px 5px #00000067;
+    
+        text-align: center;
+        color: v.$color-interfaz;
+    
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:1125px){
+    .card-moves{
+        cursor: pointer;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 1.2vw;
+        max-width: 100%;
+        padding: 1vw;
+        border-radius: 1vw;
+        background-color: v.$color-carta;
+        //box-shadow: 3px 3px 5px #00000067;
+    
+        text-align: center;
+        color: v.$color-interfaz;
+    
+    }
+}
+
+@media screen and (max-width:599px){
+    .card-moves{
+        cursor: pointer;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 1.5vw;
+        max-width: 100%;
+        padding: 1vw;
+        border-radius: 1vw;
+        background-color: v.$color-carta;
+        //box-shadow: 3px 3px 5px #00000067;
+    
+        text-align: center;
+        color: v.$color-interfaz;
+    
+    }
+}

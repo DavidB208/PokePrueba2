@@ -1,0 +1,169 @@
+@use 'variables' as v;
+
+
+@media screen and (min-width:1126px){
+    .container-search{
+        display: flex;
+        justify-content: center;
+        padding: 1vw 0;
+        background-color: v.$color-interfaz;
+        box-shadow: 0 -3px 1px v.$color-grisO inset;
+        //border: 2px solid blueviolet;
+    }
+    
+    .container-input{
+        display: flex;
+        //border: 2px solid cyan;
+        background-color: v.$color-gris;
+        padding: 0.8vw 1.8vw;
+        gap: 1vw;
+        border-radius: 2vw;
+        align-items: center;
+        
+        color: v.$color-grisO;
+    
+        input{
+            font-family: inherit;
+            background-color: transparent;
+            width: 20vw;
+            border: none;
+            outline: none;
+            font-size: 1vw;
+        }
+    }
+    
+    .btn-search{
+        border: none;
+        outline: none;
+        border-radius: 2vw;
+        font-family: inherit;
+        font-size: 0.8vw;
+        padding: 1vw 2vw;
+        background-color: v.$color-pokedex-azulO;
+        color: #fff;
+        cursor: pointer;
+        letter-spacing: 0.1vw;
+        margin: 0 2vw;
+        box-shadow: 0 4px 0 v.$color-pokedex-azulS;
+        transition: 100ms;
+    
+        &:active{
+            transform: translateY(4px);
+            box-shadow: none;
+        }
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:1125px){
+    .container-search{
+        display: flex;
+        justify-content: center;
+        padding: 2vw 0;
+        background-color: v.$color-interfaz;
+        box-shadow: 0 -3px 1px v.$color-grisO inset;
+        //border: 2px solid blueviolet;
+    }
+    
+    .container-input{
+        display: flex;
+        //border: 2px solid cyan;
+        background-color: v.$color-gris;
+        height: 4vw;
+        padding: 0.8vw 1.8vw;
+        gap: 1vw;
+        border-radius: 2vw;
+        align-items: center;
+        font-size: 1.5vw;
+        
+        color: v.$color-grisO;
+    
+        input{
+            font-family: inherit;
+            background-color: transparent;
+            width: 20vw;
+            border: none;
+            outline: none;
+            font-size: 1vw;
+            appearance: none;
+        }
+    }
+    
+    .btn-search{
+        border: none;
+        outline: none;
+        border-radius: 3vw;
+        font-family: inherit;
+        font-size: 1.5vw;
+        padding: 1vw 2.5vw;
+        background-color: v.$color-pokedex-azulO;
+        color: #fff;
+        cursor: pointer;
+        letter-spacing: 0.2vw;
+        margin: 0 2vw;
+        box-shadow: 0 4px 0 v.$color-pokedex-azulS;
+        transition: 100ms;
+    
+        &:active{
+            transform: translateY(4px);
+            box-shadow: none;
+        }
+    }
+}
+
+@media screen and (max-width:599px){
+    .container-search{
+        display: flex;
+        justify-content: center;
+        padding: 2vw 0;
+        background-color: v.$color-interfaz;
+        box-shadow: 0 -3px 1px v.$color-grisO inset;
+        //border: 2px solid blueviolet;
+    }
+    
+    .container-input{
+        display: flex;
+        //border: 2px solid cyan;
+        background-color: v.$color-gris;
+        padding: 0.8vw 1.8vw;
+        gap: 1vw;
+        height: 7vw;
+        border-radius: 5vw;
+        align-items: center;
+        
+        color: v.$color-grisO;
+    
+        input{
+            font-family: inherit;
+            background-color: transparent;
+            width: 40vw;
+            border: none;
+            outline: none;
+            font-size: 1vw;
+        }
+    }
+    
+    .btn-search{
+        border: none;
+        outline: none;
+        border-radius: 5vw;
+        font-family: inherit;
+        font-size: 2vw;
+        padding: 1vw 3vw;
+        background-color: v.$color-pokedex-azulO;
+        color: #fff;
+        cursor: pointer;
+        letter-spacing: 0.3vw;
+        margin: 0 2vw;
+        box-shadow: 0 4px 0 v.$color-pokedex-azulS;
+        transition: 100ms;
+    
+        &:active{
+            transform: translateY(4px);
+            box-shadow: none;
+        }
+    }
+}
+
+
+
+

@@ -1,0 +1,89 @@
+@use 'variables' as v;
+
+.pokemon{
+    //border: 2px solid rgb(0, 255, 170);
+    padding: 0 10%;
+
+    &-info{
+        //border: 2px solid black;
+        display: flex;
+        padding: 2vw 0;
+        height: 100%;
+    }
+
+    &-container{
+        display: flex;
+        flex-direction: column;
+        //border: 3px solid salmon;
+        width: 50%;
+    }
+
+    &-title{
+        //border: 2px solid blue;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 1vw;
+        text-transform: capitalize;
+        font-size: 1.5vw;
+        color: v.$color-interfaz;
+        background-color: v.$color-carta;
+        border-radius: 1vw 0 0 1vw;
+    }
+
+    &-img{
+        //border: 2px solid violet;
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        background-color: v.$color-carta;
+        border-radius: 0 1vw 1vw 1vw;
+        height: 100%;
+    }
+
+    &-abilities{
+        padding: 3vw 1vw;
+    }
+
+    &-moves{
+        display: flex;
+        justify-content: center;
+        //border: 2px solid purple;
+        padding: 1vw 0;
+    }
+
+    h2{
+        color: v.$color-interfaz;
+        font-size: 2vw;
+    }
+
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.ability{
+    background-color: v.$color-img;
+}
+
+.ab-types{
+    display: flex;
+    flex-direction: column;
+    padding: 1vw 0;
+    gap: 1vw;    
+
+    h2{
+        font-size: 1.3vw;
+        padding: 0.5vw 1.7vw;
+        border-radius: 0.7vw;
+        width: fit-content;
+        text-transform: capitalize;
+    }
+}
+
+.pokedexI{
+    background-color: v.$color-pantalla;
+    //border: 2px solid red;
+    height: 100%;
+}

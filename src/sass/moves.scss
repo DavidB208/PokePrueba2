@@ -1,0 +1,68 @@
+@use 'variables' as v;
+
+.container-moves{
+    display: flex;
+    flex-direction: column;
+    //border: 4px solid blue;
+    align-items: center;
+    padding: 1% 0;
+    background-color: v.$color-pantalla;
+
+    h1{
+        color: v.$color-interfaz;
+        font-size: 2.5vw;
+    }
+}
+
+.topMoves{
+    display: flex;
+    padding: 0 10%;
+    width: 100%;
+    justify-content: space-between;
+    //border: 2px solid red;
+}
+
+.container-grid{
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    width: 100%;
+    //background-color: white;
+    //border: 4px solid blue;
+}
+
+@media screen and (min-width:1126px){
+    .grid-moves{
+        display: grid;
+        margin: 2% 10%;
+        width: 100%;
+        //border: 20px solid yellowgreen;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1vw;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:1125px){
+    .grid-moves{
+        display: grid;
+        margin: 2% 10%;
+        width: 100%;
+        //border: 20px solid yellowgreen;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1vw;
+    }
+}
+
+@media screen and (max-width:599px){
+    .grid-moves{
+        display: grid;
+        margin: 2% 10%;
+        width: 100%;
+        //border: 20px solid yellowgreen;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1vw;
+    }
+}
